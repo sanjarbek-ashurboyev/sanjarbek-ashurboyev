@@ -44,8 +44,8 @@ Excel and PDF. Django REST API with a React + TypeScript frontend, covered by 64
 ### [Nova](https://github.com/sanjarbek-ashurboyev/Nova)
 Multi-role e-commerce platform for the Uzbek social-commerce market. Sellers promote
 products through referral links, operators work a shared order queue, and drivers handle
-deliveries, each in their own workspace. Covered by 46 tests.
-`Django` `PostgreSQL` `Bootstrap`
+deliveries, each in their own workspace. Covered by 48 tests.
+`Django` `SQLite` `Bootstrap`
 
 ### [OnlineChat](https://github.com/sanjarbek-ashurboyev/OnlineChat)
 Real-time chat over WebSockets with online presence, JWT authentication and a REST API
