@@ -32,7 +32,7 @@ My main projects have automated test suites that run on every push with GitHub A
 ### [CineVault](https://github.com/sanjarbek-ashurboyev/Cinevault) · [live at cinevault.uz](https://cinevault.uz/)
 Movie reservation service. Browse movies and showtimes, pick seats, pay with Stripe.
 Role-based access, email verification through Redis, async email delivery with Celery.
-I run it myself on a server behind nginx and Caddy with automatic HTTPS. Covered by 77 tests.
+I run it myself on a server behind nginx and Caddy with automatic HTTPS. Covered by 80 tests.
 `Django REST Framework` `PostgreSQL` `Redis` `Celery` `Stripe` `Docker`
 
 ### [ShopInventory](https://github.com/sanjarbek-ashurboyev/ShopInventory)
