@@ -8,7 +8,7 @@ nginx and HTTPS.
 
 **Open to junior backend roles**, remote or in Tashkent.
 
-CineVault, ShopInventory and Nova have automated test suites that run with GitHub Actions
+CineVault, ShopInventory, Nova and OnlineChat have automated test suites that run with GitHub Actions
 on every push to `main` and on every pull request.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sanjarbek--ashurboyev-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjarbek-ashurboyev/)
@@ -34,7 +34,7 @@ on every push to `main` and on every pull request.
 Movie reservation service. Browse movies and showtimes, pick seats, pay with Stripe.
 Only verified users can book and each user sees only their own reservations; email
 verification through Redis, async email delivery with Celery.
-I run it myself on a server behind nginx and Caddy with automatic HTTPS. Covered by 80 tests.
+I run it myself on a server behind nginx and Caddy with automatic HTTPS. Covered by 96 tests.
 `Django REST Framework` `PostgreSQL` `Redis` `Celery` `Stripe` `Docker`
 
 ### [ShopInventory](https://github.com/sanjarbek-ashurboyev/ShopInventory)
@@ -51,7 +51,8 @@ deliveries, each in their own workspace. Covered by 46 tests.
 
 ### [OnlineChat](https://github.com/sanjarbek-ashurboyev/OnlineChat)
 Real-time chat over WebSockets with online presence, JWT authentication and a REST API
-for chat history.
+for chat history. Covered by 48 tests, including WebSocket tests that run through the
+full ASGI stack.
 `Django Channels` `Redis` `PostgreSQL` `DRF`
 
 ---
