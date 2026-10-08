@@ -48,7 +48,7 @@ Multi-role e-commerce platform for the Uzbek social-commerce market. Sellers pro
 products through referral links, operators work a shared order queue, and drivers handle
 deliveries, each in their own workspace. Order status changes follow enforced rules, and
 cancelled or returned orders put their stock back. Covered by 59 tests.
-`Django` `PostgreSQL` `Bootstrap`
+`Django` `Bootstrap`
 
 ### [OnlineChat](https://github.com/sanjarbek-ashurboyev/OnlineChat)
 Real-time chat over WebSockets with online presence, JWT authentication and a REST API
