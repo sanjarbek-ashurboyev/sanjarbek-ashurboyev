@@ -58,9 +58,7 @@ for chat history.
 
 Reusable project skeletons I use to start new services quickly:
 [Telegram bot](https://github.com/sanjarbek-ashurboyev/TgBotTemplate) (aiogram, SQLAlchemy, Alembic) ·
-[Django + WebSockets](https://github.com/sanjarbek-ashurboyev/WebSocketTemplate) ·
 [Django + Docker](https://github.com/sanjarbek-ashurboyev/DjangoTemplate) ·
-[Django + Celery](https://github.com/sanjarbek-ashurboyev/DjangoCelery) ·
 [Django + MinIO](https://github.com/sanjarbek-ashurboyev/DjangoMinIOTemplate)
 
 ---
