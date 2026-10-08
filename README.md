@@ -8,7 +8,8 @@ nginx and HTTPS.
 
 **Open to junior backend roles**, remote or in Tashkent.
 
-My main projects have automated test suites that run on every push with GitHub Actions.
+CineVault, ShopInventory and Nova have automated test suites that run with GitHub Actions
+on every push to `main` and on every pull request.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sanjarbek--ashurboyev-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjarbek-ashurboyev/)
 [![Email](https://img.shields.io/badge/Email-ashurboyevsanjarbek%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:ashurboyevsanjarbek@gmail.com)
@@ -31,7 +32,8 @@ My main projects have automated test suites that run on every push with GitHub A
 
 ### [CineVault](https://github.com/sanjarbek-ashurboyev/Cinevault) · [live at cinevault.uz](https://cinevault.uz/)
 Movie reservation service. Browse movies and showtimes, pick seats, pay with Stripe.
-Role-based access, email verification through Redis, async email delivery with Celery.
+Only verified users can book and each user sees only their own reservations; email
+verification through Redis, async email delivery with Celery.
 I run it myself on a server behind nginx and Caddy with automatic HTTPS. Covered by 80 tests.
 `Django REST Framework` `PostgreSQL` `Redis` `Celery` `Stripe` `Docker`
 
