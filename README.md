@@ -35,6 +35,9 @@ Movie reservation service. Browse movies and showtimes, pick seats, pay with Str
 Only verified users can book and each user sees only their own reservations; email
 verification through Redis, async email delivery with Celery.
 I run it myself on a server behind nginx and Caddy with automatic HTTPS. Covered by 96 tests.
+[Design notes](https://github.com/sanjarbek-ashurboyev/Cinevault/blob/main/DESIGN.md): how double
+booking is prevented and how the payment webhook and the seat-hold expiry avoid overwriting
+each other.
 `Django REST Framework` `PostgreSQL` `Redis` `Celery` `Stripe` `Docker`
 
 ### [ShopInventory](https://github.com/sanjarbek-ashurboyev/ShopInventory)
