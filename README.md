@@ -43,7 +43,7 @@ each other.
 ### [ShopInventory](https://github.com/sanjarbek-ashurboyev/ShopInventory)
 Inventory and point-of-sale system for a shoe shop. Scan barcodes with a phone camera,
 track stock by size, sell for cash or card, print labels, and export daily reports to
-Excel and PDF. Django REST API with a React + TypeScript frontend, covered by 64 tests.
+Excel and PDF. Django REST API with a React + TypeScript frontend, covered by 71 tests.
 `Django REST Framework` `React` `TypeScript` `PostgreSQL` `Docker`
 
 ### [Nova](https://github.com/sanjarbek-ashurboyev/Nova)
