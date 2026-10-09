@@ -34,7 +34,7 @@ on every push to `main` and on every pull request.
 Movie reservation service. Browse movies and showtimes, pick seats, pay with Stripe.
 Only verified users can book and each user sees only their own reservations; email
 verification through Redis, async email delivery with Celery.
-I run it myself on a server behind nginx and Caddy with automatic HTTPS. Covered by 104 tests.
+I run it myself on a server behind nginx and Caddy with automatic HTTPS. Covered by 114 tests.
 [Design notes](https://github.com/sanjarbek-ashurboyev/Cinevault/blob/main/DESIGN.md): how double
 booking is prevented and how the payment webhook and the seat-hold expiry avoid overwriting
 each other.
